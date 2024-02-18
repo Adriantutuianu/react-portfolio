@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "title": "project 1",
+        "description": "description of the project",
+        "deployedLink": "https...",
+        "githubLink": "https...",
+        "screenshot": "..."
+    },
+    {
+        "id":2,
+        "title": "project 1",
+        "description": "description of the project",
+        "deployedLink": "https...",
+        "githubLink": "https...",
+        "screenshot": "..."
+    },
+    {
+        "id":3,
+        "title": "project 1",
+        "description": "description of the project",
+        "deployedLink": "https...",
+        "githubLink": "https...",
+        "screenshot": "..."
+    }
+]
