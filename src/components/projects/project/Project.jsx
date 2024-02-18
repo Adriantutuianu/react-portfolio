@@ -1,13 +1,19 @@
 import "./project.css";
+import project1Screenshot from "../../../images/project1-screenshot.jpg";
 
 const Project = ({ project }) => {
+  let screenshot;
+  switch (project.id) {
+    case 1:
+      screenshot = project1Screenshot;
+      break;
+
+    default:
+      screenshot = null;
+  }
   return (
     <div className="card">
-      <img
-        src={project.screenshot}
-        className="card-img-top"
-        alt={project.title}
-      />
+      <img src={screenshot} className="card-img-top" alt={project.title} />
       <div className="card-body">
         <h5 className="card-title">{project.title}</h5>
         <p className="card-text">Description: {project.description}</p>
