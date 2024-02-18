@@ -1,7 +1,7 @@
 import "./projects.css";
 
 const Projects = () => {
-  return <div>Projects</div>;
+  return <main className="projects main-section">Projects</main>;
 };
 
 export default Projects;

@@ -1,6 +1,6 @@
 import "./home.css";
 const Home = () => {
-  return <div>Home</div>;
+  return <main className="home main-section">Home</main>;
 };
 
 export default Home;
