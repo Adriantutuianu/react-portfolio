@@ -4,3 +4,10 @@
   display: flex;
   align-items: center;
 }
+
+.header .nav-tabs .nav-item .nav-link {
+  /* TODO: style links */
+}
+.header .nav-tabs .nav-item .nav-link.active {
+  background-color: brown;
+}
