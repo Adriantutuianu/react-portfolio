@@ -1,22 +1,15 @@
 import { Link } from "react-router-dom";
-
 import "./project.css";
-import project1Screenshot from "../../../images/project1-screenshot.jpg";
 
 const Project = ({ project }) => {
-  let screenshot;
-  switch (project.id) {
-    case 1:
-      screenshot = project1Screenshot;
-      break;
-
-    default:
-      screenshot = null;
-  }
   return (
     <div className="col-lg-6 col-md-12 col-sm-12 mb-4">
       <div className="card">
-        <img src={screenshot} className="card-img-top" alt={project.title} />
+        <img
+          src={project.screenshot}
+          className="card-img-top"
+          alt={project.title}
+        />
         <div className="card-body">
           <h5 className="card-title">{project.title}</h5>
           <p className="card-text">Description: {project.description}</p>
