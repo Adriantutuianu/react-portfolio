@@ -29,6 +29,9 @@
   font-size: 24px;
   font-weight: bold;
   color: #436850;
+  border: 2px solid #fbfada;
+  border-radius: 6px;
+  padding: 5px;
 }
 
 .lottie-home {
