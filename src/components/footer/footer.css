@@ -1,6 +1,48 @@
-.footer {
-  background-color: red;
-  height: 60px;
+footer {
+  background-color: #436850;
+  color: #fff;
+  max-height: 55px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
+  justify-content: space-between;
   align-items: center;
+}
+
+.footer-content a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+.footer-content ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.footer-content ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.footer-content ul li:last-child {
+  margin-right: 0;
+}
+
+.footer-content ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-content ul li a:hover {
+  text-decoration: underline;
 }
