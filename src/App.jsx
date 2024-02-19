@@ -9,7 +9,7 @@ import ProjectRoutes from "./components/projects/ProjectsRoutes";
 function App() {
   return (
     <>
-      <Router basename="/react-portfolio">
+      <Router>
         <Header />
         <Routes>
           <Route path="*" element={<Home />} />

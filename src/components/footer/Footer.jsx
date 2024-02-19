@@ -6,7 +6,7 @@ const Footer = () => {
     <footer>
       <div className="footer-content">
         <a href="https://adriantutuianu.github.io/react-portfolio/">
-          &copy; {currentYear} Adrian Tut Portfolio
+          &copy; {currentYear} Adrian Tut - Portfolio
         </a>
         <ul>
           <li>
