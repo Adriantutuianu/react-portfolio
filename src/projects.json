@@ -2,6 +2,7 @@
     {
         "id":1,
         "title": "project 1",
+        "path": "project-one",
         "description": "description of the project",
         "deployedLink": "https://ben-rumbold.github.io/web-development-study-tool/",
         "githubLink": "https://github.com/Ben-Rumbold/web-development-study-tool",
@@ -10,6 +11,7 @@
     {
         "id":2,
         "title": "project 2",
+        "path": "project-two",
         "description": "description of the project",
         "deployedLink": "https...",
         "githubLink": "https...",
@@ -18,6 +20,7 @@
     {
         "id":3,
         "title": "project 3",
+        "path": "project-three",
         "description": "description of the project",
         "deployedLink": "https...",
         "githubLink": "https...",

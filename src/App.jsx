@@ -3,17 +3,17 @@ import "./App.css";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import Home from "./components/home/Home";
-import Projects from "./components/projects/Projects";
 import Contact from "./components/contact/Contact";
+import ProjectRoutes from "./components/projects/ProjectsRoutes";
 
 function App() {
   return (
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="projects/*" element={<Projects />} />
-        <Route path="contact" element={<Contact />} />
+        <Route path="*" element={<Home />} />
+        <Route path="/projects/*" element={<ProjectRoutes />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </Router>
