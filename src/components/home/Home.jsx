@@ -1,15 +1,25 @@
 import "./home.css";
+import Lottie from "lottie-react";
+import animationHome from "../../Animation - home.json";
+
 const Home = () => {
   return (
     <main className="home main-section">
-      <div>
-        <h1 className="title">HI THERE! I'M ADRIAN</h1>
-        <h2 className="sub-title">
+      <div className="home-text">
+        <h2 className="title">
+          Hi there! I'm <span className="text-span">Adrian!</span>
+        </h2>
+        <h3 className="sub-title">
           A Front-End Web Developer passionate about creating interactive
           applications and experiences on the web.
-        </h2>
-        <h3>Take a look at my projects!</h3>
+        </h3>
+        <h3 className="text-span">Take a look at my projects!</h3>
       </div>
+      <Lottie
+        className="lottie-home"
+        animationData={animationHome}
+        loop={true}
+      />
     </main>
   );
 };
