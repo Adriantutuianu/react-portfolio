@@ -4,6 +4,9 @@
   width: 100%;
   margin: 0 auto;
   padding: 0 10px;
+  background-image: url("/Background-image.jpg");
+  /* Other background properties */
+  background-size: cover; /* Adjust as needed */
 }
 
 .content {
