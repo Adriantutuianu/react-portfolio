@@ -1,10 +1,35 @@
-import "./contact.css";
+import { useState } from "react";
 import Lottie from "lottie-react";
 import lottieCard from "../../icons/Animation - contact.json";
 import MailImage from "../../icons/email img.png";
 import LinkedInImage from "../../icons/linkedin.png";
 import GithubImage from "../../icons/github img.png";
+import { Form, Button } from "react-bootstrap";
+import "./contact.css";
+
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(formData);
+
+    setFormData({
+      name: "",
+      email: "",
+      message: "",
+    });
+  };
+
   return (
     <main className="contact main-section">
       <h1 className="title">
@@ -46,6 +71,53 @@ const Contact = () => {
           <span>/adriantutuianu</span>
         </a>
       </div>
+      <Form className="contact-form" onSubmit={handleSubmit}>
+        <Form.Group controlId="formName">
+          <Form.Control
+            type="text"
+            name="name"
+            placeholder="Enter your name"
+            value={formData.name}
+            onChange={handleChange}
+            size="sm"
+            required
+          />
+        </Form.Group>
+        <Form.Group controlId="formEmail">
+          <Form.Label></Form.Label>
+          <Form.Control
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+            value={formData.email}
+            onChange={handleChange}
+            size="sm"
+            required
+          />
+        </Form.Group>
+        <Form.Group controlId="formMessage">
+          <Form.Label></Form.Label>
+          <Form.Control
+            as="textarea"
+            name="message"
+            rows={3}
+            placeholder="Enter your message"
+            value={formData.message}
+            onChange={handleChange}
+            size="sm"
+            required
+          />
+        </Form.Group>
+        <Button
+          className="btn-form"
+          variant="secondary"
+          type="submit"
+          size="sm"
+        >
+          {" "}
+          Send!
+        </Button>
+      </Form>
       <Lottie
         className="lottie-contact-letter"
         animationData={lottieCard}
