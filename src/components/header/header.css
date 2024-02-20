@@ -1,5 +1,5 @@
 .header {
-  background-color: #436850;
+  background-color: var(--secondary-color);
   padding: 20px 0;
   height: 60px;
   display: flex;
@@ -42,18 +42,20 @@
 }
 
 .nav-link:hover {
-  color: #12372a; /* Change color on hover */
+  color: var(--primary-color); /* Change color on hover */
 }
 
 .nav-link:hover::before {
-  background-color: #12372a; /* Highlight bottom border on hover */
+  background-color: var(--primary-color); /* Highlight bottom border on hover */
 }
 
 .nav-link.active {
-  background-color: #12372a !important;
-  color: #12372a;
+  background-color: var(--primary-color) !important;
+  color: var(--primary-color);
 }
 
 .nav-link.active::before {
-  background-color: #12372a; /* Highlight bottom border for active link */
+  background-color: var(
+    --primary-color
+  ); /* Highlight bottom border for active link */
 }

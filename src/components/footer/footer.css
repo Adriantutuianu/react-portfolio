@@ -1,5 +1,5 @@
 footer {
-  background-color: #436850;
+  background-color: var(--secondary-color);
   color: #fff;
   max-height: 55px;
   padding: 10px 0;
