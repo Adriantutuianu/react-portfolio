@@ -5,15 +5,15 @@ const Project = ({ project }) => {
   return (
     <div className="col-lg-6 col-md-12 col-sm-12 mb-4">
       <div className="card">
-        <img
+        {/* <img
           src={project.screenshot}
           className="card-img-top"
           alt={project.title}
-        />
+        /> */}
         <div className="card-body">
           <h5 className="card-title">{project.title}</h5>
           <p className="card-text">Description: {project.description}</p>
-          <a
+          {/* <a
             href={project.deployedLink}
             className="btn btn-primary"
             target="_blank"
@@ -28,9 +28,13 @@ const Project = ({ project }) => {
             rel="noopener noreferrer"
           >
             GitHub Repository
-          </a>
-          <Link to={project.path} role="button" className="btn btn-link">
-            Read more
+          </a> */}
+          <Link
+            to={project.path}
+            role="button"
+            className="btn btn-secondary btn-link"
+          >
+            Project details
           </Link>
         </div>
       </div>
