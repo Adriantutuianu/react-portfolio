@@ -5,6 +5,13 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-color: #12372a;
+  --secondary-color: #436850;
+  --third-color: #adbc9f;
+  --fourth-color: #fbfada;
+}
+
 body {
   min-height: 100vh;
 }
@@ -15,9 +22,3 @@ body #root {
   justify-content: space-between;
   height: 100%;
 }
-
-/* colors */
-/* #12372A */
-/* #436850 */
-/* #ADBC9F */
-/* #FBFADA */
