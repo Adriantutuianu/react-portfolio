@@ -4,3 +4,7 @@
   right: 0;
   margin-bottom: 4px;
 }
+
+.card-title {
+  border-bottom: 1px solid var(--primary-color);
+}
