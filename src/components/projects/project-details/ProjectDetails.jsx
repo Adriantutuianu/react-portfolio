@@ -12,17 +12,31 @@ const ProjectDetails = () => {
   console.log("DATA: ", data);
   return data ? (
     <main className="project-details main-section">
-      <img src={data.screenshot} className="img-screenshot" alt={data.title} />
-      <h1>{data?.title}</h1>
-      <section>{data.description}</section>
-      <p>Deployed link:</p>
-      <Link to={data.deployedLink} role="button" className="btn btn-link">
-        This is the link to deployed application.
-      </Link>
-      <p>Github Link: </p>
-      <Link to={data.githubLink} role="button" className="btn btn-link">
-        This is the link to Github Repository.
-      </Link>
+      <div className="content-details">
+        <h1>{data?.title}</h1>
+        <img
+          src={data.screenshot}
+          className=" img-screenshot"
+          alt={data.title}
+        />
+        <p className="text-description">{data.description}</p>
+        <p className="text-link">Deployed link:</p>
+        <Link
+          to={data.deployedLink}
+          role="button"
+          className="btn btn-link btn-link-style"
+        >
+          Click me to see the deployed app!
+        </Link>
+        <p className="text-link">Github Link: </p>
+        <Link
+          to={data.githubLink}
+          role="button"
+          className="btn btn-link btn-link-style"
+        >
+          click me to see the Github repository!
+        </Link>
+      </div>
     </main>
   ) : (
     <NotFound />
