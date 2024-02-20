@@ -1,3 +1,4 @@
+/* Styles for the header section */
 .header {
   background-color: var(--secondary-color);
   padding: 20px 0;
@@ -5,31 +6,31 @@
   display: flex;
   align-items: center;
 }
-
+/* Styles for the content within the header */
 .content {
   max-width: 960px;
   margin: 0 auto;
 }
-
+/* Styles for the navigation menu */
 .nav {
   list-style-type: none;
   padding: 0;
   display: flex;
   justify-content: center;
 }
-
+/* Styles for navigation menu items */
 .nav-item {
   display: inline-block;
   margin-right: 60px;
 }
-
+/* Styles for navigation links */
 .nav-link {
   color: white !important;
   text-decoration: none;
   position: relative;
   transition: color 0.3s;
 }
-
+/* Styles for pseudo-element before navigation links */
 .nav-link::before {
   content: "";
   position: absolute;
@@ -40,20 +41,20 @@
   background-color: transparent;
   transition: 0.3s;
 }
-
+/* Hover effect for navigation links */
 .nav-link:hover {
   color: var(--primary-color); /* Change color on hover */
 }
-
+/* Hover effect for pseudo-element before navigation links */
 .nav-link:hover::before {
   background-color: var(--primary-color); /* Highlight bottom border on hover */
 }
-
+/* Styles for active navigation link */
 .nav-link.active {
   background-color: var(--primary-color) !important;
   color: var(--primary-color);
 }
-
+/* Styles for pseudo-element before active navigation link */
 .nav-link.active::before {
   background-color: var(
     --primary-color

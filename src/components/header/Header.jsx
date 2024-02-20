@@ -1,7 +1,9 @@
 import { NavLink } from "react-router-dom";
 import "./header.css";
 
+// Functional component for the header
 const Header = () => {
+  // Render header component
   return (
     <header className="header ">
       <div className="content">

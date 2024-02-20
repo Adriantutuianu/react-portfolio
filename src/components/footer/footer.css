@@ -1,3 +1,4 @@
+/* Styles for the footer section */
 footer {
   background-color: var(--secondary-color);
   color: #fff;
@@ -6,6 +7,7 @@ footer {
   text-align: center;
 }
 
+/* Styles for the content within the footer */
 .footer-content {
   max-width: 1200px;
   margin: 0 auto;
@@ -14,21 +16,22 @@ footer {
   align-items: center;
 }
 
+/* Styles for links within the footer */
 .footer-content a {
   color: #fff;
   text-decoration: none;
 }
-
+/* Hover effect for links within the footer */
 .footer-content a:hover {
   text-decoration: underline;
 }
-
+/* Styles for unordered list within the footer */
 .footer-content ul {
   list-style-type: none;
   padding: 0;
   margin-bottom: 0;
 }
-
+/* Styles for list items within the footer */
 .footer-content ul li {
   display: inline;
   margin-right: 20px;
@@ -37,12 +40,12 @@ footer {
 .footer-content ul li:last-child {
   margin-right: 0;
 }
-
+/* Styles for links within list items in the footer */
 .footer-content ul li a {
   color: #fff;
   text-decoration: none;
 }
-
+/* Hover effect for links within list items in the footer */
 .footer-content ul li a:hover {
   text-decoration: underline;
 }

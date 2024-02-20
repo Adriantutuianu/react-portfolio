@@ -8,21 +8,25 @@ import { Form, Button } from "react-bootstrap";
 import "./contact.css";
 
 const Contact = () => {
+  // State for form data
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     message: "",
   });
 
+  // Handle form input change
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
 
+  // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(formData);
 
+    // Reset form data after submission
     setFormData({
       name: "",
       email: "",
@@ -30,6 +34,7 @@ const Contact = () => {
     });
   };
 
+  // Render Contact component
   return (
     <main className="contact main-section">
       <h1 className="title">

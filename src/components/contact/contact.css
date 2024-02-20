@@ -1,3 +1,4 @@
+/* Styles for the contact section */
 .contact {
   background-image: none;
   display: flex;
@@ -6,6 +7,7 @@
   flex-direction: column;
 }
 
+/* Styles for the title within the contact section */
 .contact .title {
   margin-top: 20px;
   font-size: 40px;
@@ -16,12 +18,14 @@
   font-weight: bold;
 }
 
+/* Styles for the span within the title */
 .contact .title span {
   background-color: black;
   color: white;
   margin-left: 8px;
 }
 
+/* Styles for the contact information wrap */
 .contact .contact-wrap {
   display: flex;
   flex-direction: row;
@@ -30,6 +34,7 @@
   margin-top: 30px;
 }
 
+/* Styles for each contact item within the wrap */
 .contact .contact-wrap .item {
   display: flex;
   justify-content: center;
@@ -41,6 +46,7 @@
   text-decoration: none;
 }
 
+/* Styles for contact images */
 .contact .contact-wrap .contact-img {
   width: 100%;
   max-width: 34px;
@@ -49,6 +55,7 @@
   padding: 5px;
 }
 
+/* Styles for the contact form */
 .lottie-contact-letter {
   height: 200px;
   width: 200px;
@@ -56,11 +63,13 @@
   padding: 10px;
 }
 
+/* Styles for the contact form */
 .contact-form {
   width: 400px;
   margin-left: 20px;
 }
 
+/* Styles for buttons within the form */
 .btn-form {
   margin-top: 15px;
 }

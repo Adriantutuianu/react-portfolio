@@ -1,3 +1,4 @@
+/* Styles for the home section */
 .home {
   color: var(--third-color);
   display: flex;
@@ -5,26 +6,26 @@
   align-items: center;
   justify-content: center;
 }
-
+/* Styles for text within the home section */
 .home .home-text {
   text-align: center;
 }
-
+/* Styles for title within the home section */
 .home .home-text .title {
   font-size: 40px;
   margin-bottom: 20px;
 }
-
+/* Styles for span within the title within the home section */
 .home .home-text .title .title-span {
   color: white;
 }
-
+/* Styles for sub-title within the home section */
 .home .home-text .sub-title {
   font-size: 26px;
   margin-bottom: 30px;
   max-width: 900px;
 }
-
+/* Styles for span within the text within the home section */
 .home .home-text .text-span {
   text-decoration: none;
   font-size: 24px;
@@ -32,7 +33,7 @@
   border: 2px solid white;
   padding: 3px 10px;
 }
-
+/* Styles for the lottie animation within the home section */
 .lottie-home {
   width: 300px;
   height: 300px;

@@ -1,7 +1,11 @@
 import "./footer.css";
 
+// Functional component for the footer
 const Footer = () => {
+  // Get current year
   const currentYear = new Date().getFullYear();
+
+  // Render footer component
   return (
     <footer>
       <div className="footer-content">
