@@ -1,3 +1,7 @@
+.home-container {
+  background-color: black;
+}
+
 /* Styles for the home section */
 .home {
   color: var(--third-color);

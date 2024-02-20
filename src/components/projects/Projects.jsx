@@ -5,10 +5,12 @@ import projectsData from "../../projects.json";
 // Functional component for displaying projects
 const Projects = () => {
   return (
-    <main className="projects main-section">
-      {projectsData.map((project) => (
-        <Project key={project.id} project={project} />
-      ))}{" "}
+    <main className="projects-container">
+      <div className="projects main-section">
+        {projectsData.map((project) => (
+          <Project key={project.id} project={project} />
+        ))}{" "}
+      </div>
     </main>
   );
 };

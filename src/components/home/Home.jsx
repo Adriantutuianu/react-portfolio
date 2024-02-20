@@ -7,27 +7,29 @@ import { NavLink } from "react-router-dom";
 const Home = () => {
   // Render home component
   return (
-    <main className="home main-section">
-      <div className="home-text">
-        <h2 className="title">
-          <span className="title-span">Hi there!</span> I'm{" "}
-          <span className="title-span">Adrian!</span>
-        </h2>
-        <h3 className="sub-title">
-          A <span className="title-span">Front-End</span> Web Developer
-          passionate about creating interactive applications and experiences on
-          the web.
-        </h3>
+    <main className="home-container">
+      <div className="home main-section">
+        <div className="home-text">
+          <h2 className="title">
+            <span className="title-span">Hi there!</span> I'm{" "}
+            <span className="title-span">Adrian!</span>
+          </h2>
+          <h3 className="sub-title">
+            A <span className="title-span">Front-End</span> Web Developer
+            passionate about creating interactive applications and experiences
+            on the web.
+          </h3>
 
-        <NavLink to="projects" end className="text-span">
-          Take a look at my projects!
-        </NavLink>
+          <NavLink to="projects" end className="text-span">
+            Take a look at my projects!
+          </NavLink>
+        </div>
+        <Lottie
+          className="lottie-home"
+          animationData={animationHome}
+          loop={true}
+        />
       </div>
-      <Lottie
-        className="lottie-home"
-        animationData={animationHome}
-        loop={true}
-      />
     </main>
   );
 };
