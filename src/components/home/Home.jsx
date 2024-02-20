@@ -1,6 +1,6 @@
 import "./home.css";
 import Lottie from "lottie-react";
-import animationHome from "../../Animation - home.json";
+import animationHome from "../../icons/Animation - home.json";
 import { NavLink } from "react-router-dom";
 
 const Home = () => {

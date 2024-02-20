@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  background-color: #adbc9f;
 }
 .contact .title {
   font-size: 40px;
@@ -42,7 +43,8 @@
 }
 
 .lottie-contact-letter {
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
   margin: 0 auto;
+  padding: 10px;
 }
