@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
 import "./project.css";
 
+// Functional component for each project
 const Project = ({ project }) => {
+  // Render project component
   return (
     <div className="container">
       <div className="row justify-content-center">

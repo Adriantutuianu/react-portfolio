@@ -3,7 +3,9 @@ import Lottie from "lottie-react";
 import animationHome from "../../icons/Animation - home.json";
 import { NavLink } from "react-router-dom";
 
+// Functional component for the home section
 const Home = () => {
+  // Render home component
   return (
     <main className="home main-section">
       <div className="home-text">

@@ -4,13 +4,14 @@ import NotFound from "../../not-found/NotFound";
 import { Link } from "react-router-dom";
 import "./projectDetails.css";
 
+// Functional component for project details
 const ProjectDetails = () => {
-  let location = useLocation();
-  const locationPath = location.pathname.replace("/projects/", "");
+  let location = useLocation(); // Get current location
+  const locationPath = location.pathname.replace("/projects/", ""); // Extract project path from location
 
-  const data = projectsData.find((proj) => proj.path === locationPath);
-  console.log("DATA: ", data);
-  return data ? (
+  const data = projectsData.find((proj) => proj.path === locationPath); // Find project data from projectsData array
+  console.log("DATA: ", data); // Log project data
+  return data ? ( // If project data exists
     <main className="project-details main-section">
       <div className="content-details">
         <h1>{data?.title}</h1>
@@ -41,7 +42,7 @@ const ProjectDetails = () => {
       </div>
     </main>
   ) : (
-    <NotFound />
+    <NotFound /> // Render NotFound component if project data doesn't exist
   );
 };
 

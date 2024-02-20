@@ -4,8 +4,9 @@ import Projects from "./Projects";
 import ProjectDetails from "./project-details/ProjectDetails";
 import NotFound from "../not-found/NotFound";
 
+// Functional component for managing routes related to projects
 const ProjectsRoutes = () => {
-  let location = useLocation();
+  let location = useLocation(); // Get current location
   return (
     <Routes location={location}>
       <Route path="/" element={<Projects />} />
