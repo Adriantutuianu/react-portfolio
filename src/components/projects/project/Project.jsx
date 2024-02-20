@@ -12,6 +12,7 @@ const Project = ({ project }) => {
               <p className="card-text">{project.shortDescription}</p>
               <Link
                 to={project.path}
+                target="_blank"
                 role="button"
                 className="btn btn-secondary btn-link btn-style"
               >

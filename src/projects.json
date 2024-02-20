@@ -13,8 +13,8 @@
     "id": 2,
     "title": "React Portfolio",
     "path": "project-two",
-    "shortDescription": "short description",
-    "description": "description of the project",
+    "shortDescription": "Welcome to Adrian's React Portfolio! This is a dynamic and interactive web application built using React.js, designed to showcase my skills, projects, and experiences in an elegant and engaging manner.",
+    "description": "Responsive Design: My portfolio is optimized to look great on all devices, from desktops to smartphones, ensuring a seamless browsing experience for visitors.",
     "deployedLink": " https://adriantutuianu.github.io/react-portfolio/.",
     "githubLink": "https://github.com/Adriantutuianu/react-portfolio",
     "screenshot": "/project2-screenshot.png"
