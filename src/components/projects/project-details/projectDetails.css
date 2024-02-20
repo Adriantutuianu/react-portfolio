@@ -5,25 +5,25 @@
   text-align: center;
 }
 
-.content-details {
+.project-details .content-details {
   display: grid;
   place-items: center;
   margin: 30px 0;
   border: 2px solid white;
 }
 
-.img-screenshot {
+.project-details .content-details .img-screenshot {
   max-height: 300px;
   max-width: 600px;
   padding: 5px;
   border-bottom: 1px solid white;
 }
 
-.text-link {
+.project-details .content-details .text-link {
   margin-bottom: 0;
   border-bottom: 1px solid white;
 }
 
-.text-description {
+.project-details .content-details .text-description {
   max-width: 800px;
 }

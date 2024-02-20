@@ -22,7 +22,7 @@
   margin-left: 8px;
 }
 
-.contact-wrap {
+.contact .contact-wrap {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -30,7 +30,7 @@
   margin-top: 30px;
 }
 
-.contact-wrap .item {
+.contact .contact-wrap .item {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,7 +41,7 @@
   text-decoration: none;
 }
 
-.contact-img {
+.contact .contact-wrap .contact-img {
   width: 100%;
   max-width: 34px;
   transition: all 0.2s ease-in 0s;
