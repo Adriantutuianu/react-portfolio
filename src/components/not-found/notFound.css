@@ -1,3 +1,12 @@
 .lottie-notFound {
   height: 500px;
 }
+
+.projects-notFound .link-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  text-decoration: none;
+  color: white;
+}
