@@ -1,3 +1,6 @@
+.project-details-container {
+  background: black;
+}
 /* Styles for project details section */
 .project-details {
   color: white;
@@ -6,6 +9,7 @@
   text-align: center;
 }
 /* Styles for content details within project details section */
+
 .project-details .content-details {
   display: grid;
   place-items: center;
