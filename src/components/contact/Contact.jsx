@@ -1,6 +1,6 @@
 import "./contact.css";
 import Lottie from "lottie-react";
-import lottieCard from "../../icons/96614-contact-letter-green.json";
+import lottieCard from "../../icons/Animation - contact.json";
 import MailImage from "../../icons/email img.png";
 import LinkedInImage from "../../icons/linkedin.png";
 import GithubImage from "../../icons/github img.png";
