@@ -20,8 +20,6 @@ const NotFound = () => {
       </Link>
     </main>
   );
-
-  //TODO: link to homepage(button -return to homepage)
 };
 
 export default NotFound;
