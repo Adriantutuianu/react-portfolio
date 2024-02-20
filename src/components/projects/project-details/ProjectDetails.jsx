@@ -25,7 +25,6 @@ const ProjectDetails = () => {
           <p className="text-link">Deployed link:</p>
           <Link
             to={data.deployedLink}
-            target="_blank"
             role="button"
             className="btn btn-link btn-link-style"
           >
@@ -34,7 +33,6 @@ const ProjectDetails = () => {
           <p className="text-link">Github Link: </p>
           <Link
             to={data.githubLink}
-            target="_blank"
             role="button"
             className="btn btn-link btn-link-style"
           >
