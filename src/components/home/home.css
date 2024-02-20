@@ -15,23 +15,22 @@
   margin-bottom: 20px;
 }
 
-.title .title-span {
-  color: #436850;
+.title-span {
+  color: white;
 }
 
 .sub-title {
   font-size: 26px;
   margin-bottom: 30px;
+  max-width: 900px;
 }
 
 .text-span {
   text-decoration: none;
   font-size: 24px;
-  font-weight: bold;
-  color: #436850;
-  border: 2px solid #fbfada;
-  border-radius: 6px;
-  padding: 5px;
+  color: #adbc9f;
+  border: 2px solid white;
+  padding: 3px 10px;
 }
 
 .lottie-home {

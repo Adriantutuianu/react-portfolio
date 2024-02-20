@@ -1,0 +1,48 @@
+.contact {
+  background-image: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.contact .title {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #12372a;
+  font-weight: bold;
+  span {
+    background-color: black;
+    color: white;
+    margin-left: 8px;
+  }
+}
+.contact-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.contact-wrap .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 22px;
+  color: #12372a;
+  transition: all 0.2s ease-in 0s;
+  text-decoration: none;
+}
+.contact-img {
+  width: 100%;
+  max-width: 34px;
+  transition: all 0.2s ease-in 0s;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.lottie-contact-letter {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+}
