@@ -1,7 +1,7 @@
 import "./home.css";
 import Lottie from "lottie-react";
-import animationHome from "../../icons/Animation - home.json";
 import { NavLink } from "react-router-dom";
+import animationHome from "../../icons/Animation - home.json";
 
 // Functional component for the home section
 const Home = () => {
@@ -12,7 +12,7 @@ const Home = () => {
         <div className="home-text">
           <h2 className="title">
             <span className="title-span">Hi there!</span> I'm{" "}
-            <span className="title-span">Adrian!</span>
+            <span className="title-span">Adrian! </span>
           </h2>
           <h3 className="sub-title">
             A <span className="title-span">Front-End</span> Web Developer
