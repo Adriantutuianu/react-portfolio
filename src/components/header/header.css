@@ -8,20 +8,27 @@
 }
 /* Styles for the content within the header */
 .content {
-  max-width: 960px;
+  max-width: 1260px;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-/* Styles for the navigation menu */
-.nav {
-  list-style-type: none;
-  padding: 0;
+
+.portfolio-header {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.lottie-header {
+  max-width: 50px;
 }
 /* Styles for navigation menu items */
 .nav-item {
   display: inline-block;
-  margin-right: 60px;
+  margin-right: 40px;
+  margin-left: 40px;
 }
 /* Styles for navigation links */
 .nav-link {
@@ -59,4 +66,25 @@
   background-color: var(
     --primary-color
   ); /* Highlight bottom border for active link */
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 630px) {
+  .portfolio-header {
+    display: none;
+  }
+  .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .content {
+    width: auto;
+  }
+  .nav-item {
+    margin: 0 8px;
+  }
 }

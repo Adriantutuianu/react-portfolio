@@ -1,5 +1,7 @@
 import { NavLink } from "react-router-dom";
 import "./header.css";
+import Lottie from "lottie-react";
+import animationHeader from "../../icons/Lottie Lego.json";
 
 // Functional component for the header
 const Header = () => {
@@ -7,6 +9,19 @@ const Header = () => {
   return (
     <header className="header ">
       <div className="content">
+        <div className="portfolio-header">
+          <Lottie
+            className="lottie-header"
+            animationData={animationHeader}
+            loop={true}
+          />
+          <h2 className="header-title">Portfolio </h2>
+          <Lottie
+            className="lottie-header"
+            animationData={animationHeader}
+            loop={true}
+          />
+        </div>
         <ul className="nav nav-tabs">
           <li className="nav-item">
             <NavLink
