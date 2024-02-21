@@ -1,7 +1,6 @@
 import projectsData from "../../../projects.json";
 import { useLocation } from "react-router-dom";
 import NotFound from "../../not-found/NotFound";
-import { Link } from "react-router-dom";
 import "./projectDetails.css";
 
 // Functional component for project details
