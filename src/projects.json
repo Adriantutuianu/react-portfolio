@@ -25,7 +25,7 @@
     "path": "project-three",
     "shortDescription": "This command-line application generates HTML files based on input provided via a user interface. It is designed to help managers quickly generate a webpage displaying basic information about their team members, including their names, IDs, email addresses, and additional details such as GitHub usernames or schools for engineers and interns respectively.",
     "description": "This command-line application generates HTML files based on input provided via a user interface. It is designed to help managers quickly generate a webpage displaying basic information about their team members, including their names, IDs, email addresses, and additional details such as GitHub usernames or schools for engineers and interns respectively.",
-    "deployedLink": "",
+    "deployedLink": "N/A",
     "githubLink": "https://github.com/Adriantutuianu/team-profile-generator-app-challenge",
     "screenshot": "/project3-screenshot.png"
   },

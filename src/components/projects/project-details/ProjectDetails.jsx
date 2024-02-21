@@ -23,21 +23,18 @@ const ProjectDetails = () => {
           />
           <p className="text-description">{data.description}</p>
           <p className="text-link">Deployed link:</p>
-          <Link
-            to={data.deployedLink}
-            role="button"
-            className="btn btn-link btn-link-style"
-          >
+          <a href={data.deployedLink} target="_blank">
             Click me to see the deployed app!
-          </Link>
+          </a>
           <p className="text-link">Github Link: </p>
-          <Link
-            to={data.githubLink}
+          <a
+            href={data.githubLink}
+            target="_blank"
             role="button"
             className="btn btn-link btn-link-style"
           >
             click me to see the Github repository!
-          </Link>
+          </a>
         </div>
       </div>
     </main>
