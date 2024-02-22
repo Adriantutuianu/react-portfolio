@@ -1,29 +1,39 @@
-import { Link } from "react-router-dom";
 import "./project.css";
+import Card from "@mui/material/Card";
+import CardActions from "@mui/material/CardActions";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
 
 // Functional component for each project
 const Project = ({ project }) => {
   // Render project component
   return (
-    <div className="container">
-      <div className="row justify-content-center">
-        <div className="col-lg-8 col-md-10 col-sm-12 p-3">
-          <div className="card">
-            <div className="card-body">
-              <h5 className="card-title">{project.title}</h5>
-              <p className="card-text">{project.shortDescription}</p>
-              <Link
-                to={project.path}
-                role="button"
-                className="btn btn-secondary btn-link btn-style"
-              >
-                Project details
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <Card sx={{ maxWidth: 545 }}>
+      <CardMedia
+        sx={{ height: 140 }}
+        image={project.screenshot}
+        title={project.title}
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+          {project.title}
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          {project.shortDescription}
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button
+          variant="outlined"
+          href={`#/projects/${project.path}`}
+          size="small"
+        >
+          Project Details
+        </Button>
+      </CardActions>
+    </Card>
   );
 };
 
