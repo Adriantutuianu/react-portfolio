@@ -20,7 +20,8 @@
   margin-bottom: 20px;
 }
 /* Styles for span within the title within the home section */
-.home .home-text .title .title-span {
+.home .home-text .title .title-span,
+.home .home-text .sub-title .title-span {
   color: white;
 }
 /* Styles for sub-title within the home section */

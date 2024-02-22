@@ -49,3 +49,15 @@ footer {
 .footer-content ul li a:hover {
   text-decoration: underline;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 630px) {
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-footer {
+    display: none;
+  }
+}

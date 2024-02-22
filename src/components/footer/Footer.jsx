@@ -12,7 +12,7 @@ const Footer = () => {
         <a href="https://adriantutuianu.github.io/react-portfolio/">
           &copy; {currentYear} Adrian Tut - Portfolio
         </a>
-        <ul>
+        <ul className="nav-footer">
           <li>
             <a href="/">Home</a>
           </li>
