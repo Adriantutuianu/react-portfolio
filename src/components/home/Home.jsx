@@ -15,7 +15,7 @@ const Home = () => {
             <span className="title-span">Adrian! </span>
           </h2>
           <h3 className="sub-title">
-            A <span className="title-span">Front-End</span> Web Developer
+            A <span className="title-span">Front-End</span> Software Developer
             passionate about creating interactive applications and experiences
             on the web.
           </h3>
