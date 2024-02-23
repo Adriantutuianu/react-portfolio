@@ -10,9 +10,16 @@ import Typography from "@mui/material/Typography";
 const Project = ({ project }) => {
   // Render project component
   return (
-    <Card sx={{ maxWidth: 545 }}>
+    <Card
+      sx={{
+        height: "100%",
+        width: "100%",
+        padding: 3,
+        marginTop: 3,
+      }}
+    >
       <CardMedia
-        sx={{ height: 140 }}
+        sx={{ height: 200 }}
         image={project.screenshot}
         title={project.title}
       />
