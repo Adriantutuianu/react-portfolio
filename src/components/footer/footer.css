@@ -12,7 +12,7 @@ footer {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -24,40 +24,4 @@ footer {
 /* Hover effect for links within the footer */
 .footer-content a:hover {
   text-decoration: underline;
-}
-/* Styles for unordered list within the footer */
-.footer-content ul {
-  list-style-type: none;
-  padding: 0;
-  margin-bottom: 0;
-}
-/* Styles for list items within the footer */
-.footer-content ul li {
-  display: inline;
-  margin-right: 20px;
-}
-
-.footer-content ul li:last-child {
-  margin-right: 0;
-}
-/* Styles for links within list items in the footer */
-.footer-content ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-/* Hover effect for links within list items in the footer */
-.footer-content ul li a:hover {
-  text-decoration: underline;
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 630px) {
-  .footer-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .nav-footer {
-    display: none;
-  }
 }
