@@ -19,13 +19,16 @@ const Project = ({ project }) => {
       }}
     >
       <CardMedia
-        sx={{ height: 200 }}
+        sx={{ height: 200, border: "1px solid black" }}
         image={project.screenshot}
         title={project.title}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
           {project.title}
+        </Typography>
+        <Typography variant="body1" color="text.secondary">
+          Technology used : {project.technologyUsed}
         </Typography>
         <Typography variant="body2" color="text.secondary">
           {project.shortDescription}
