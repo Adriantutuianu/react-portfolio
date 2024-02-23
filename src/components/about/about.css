@@ -1,7 +1,7 @@
 .content-wrap {
   min-height: calc(100vh - 104px);
   max-width: 1500px;
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   padding: 0 10px;
   display: flex;
@@ -17,6 +17,11 @@
   text-align: center;
 }
 
-.content-wrap p {
+.content-wrap ul li {
   margin-bottom: 20px;
+}
+
+.content-wrap ul li .bold-text {
+  font-weight: bold;
+  color: var(--primary-color);
 }
