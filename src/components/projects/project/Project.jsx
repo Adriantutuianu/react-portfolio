@@ -5,12 +5,14 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-
+import Tooltip from "@mui/material/Tooltip";
+import Zoom from "@mui/material/Zoom";
 // Functional component for each project
 const Project = ({ project }) => {
   // Render project component
   return (
     <Card
+      className="card-content"
       sx={{
         height: "100%",
         width: "100%",
@@ -24,24 +26,44 @@ const Project = ({ project }) => {
         title={project.title}
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography
+          gutterBottom
+          className="card-title"
+          variant="h5"
+          component="div"
+        >
           {project.title}
-        </Typography>
-        <Typography variant="body1" color="text.secondary">
-          Technology used : {project.technologyUsed}
         </Typography>
         <Typography variant="body2" color="text.secondary">
           {project.shortDescription}
         </Typography>
+        <Typography variant="body1" color="text.secondary">
+          Technology used : {project.technologyUsed}
+        </Typography>
       </CardContent>
       <CardActions>
-        <Button
-          variant="outlined"
-          href={`#/projects/${project.path}`}
-          size="small"
-        >
-          Project Details
-        </Button>
+        <Tooltip TransitionComponent={Zoom} title="Website">
+          <Button
+            className="project-link"
+            variant="outlined"
+            target="_blank"
+            href={project.deployedLink}
+            size="small"
+          >
+            View Project
+          </Button>
+        </Tooltip>
+        <Tooltip TransitionComponent={Zoom} title="Github Page">
+          <Button
+            className="project-github"
+            variant="outlined"
+            target="_blank"
+            href={project.githubLink}
+            size="small"
+          >
+            View Code
+          </Button>{" "}
+        </Tooltip>
       </CardActions>
     </Card>
   );
