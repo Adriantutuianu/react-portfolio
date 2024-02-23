@@ -1,11 +1,3 @@
-/* Styles for button */
-.btn-style {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin-bottom: 4px;
-}
-/* Styles for card title */
 .card-title {
-  border-bottom: 1px solid var(--primary-color);
+  border-bottom: 1px solid black;
 }

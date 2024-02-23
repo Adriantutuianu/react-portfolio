@@ -1,0 +1,22 @@
+.content-wrap {
+  min-height: calc(100vh - 104px);
+  max-width: 1500px;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content-wrap h1 {
+  margin: 20px;
+  background-color: var(--primary-color);
+  color: white;
+  width: 250px;
+  text-align: center;
+}
+
+.content-wrap p {
+  margin-bottom: 20px;
+}
