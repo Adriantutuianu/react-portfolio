@@ -21,7 +21,7 @@ const Home = () => {
           </h3>
 
           <NavLink to="projects" end className="text-span">
-            Click here to see my projects!
+            See my projects!
           </NavLink>
         </div>
         <Lottie
