@@ -2,6 +2,8 @@ import "./home.css";
 import Lottie from "lottie-react";
 import { NavLink } from "react-router-dom";
 import animationHome from "../../icons/Animation - home.json";
+import Button from "@mui/material/Button";
+import Tooltip from "@mui/material/Tooltip";
 
 // Functional component for the home section
 const Home = () => {
@@ -20,8 +22,16 @@ const Home = () => {
             on the web.
           </h3>
 
-          <NavLink to="projects" end className="text-span">
-            See my projects!
+          <NavLink to="projects" end>
+            <Tooltip title="Projects" arrow>
+              <Button
+                variant="outlined"
+                sx={{ borderColor: "var(--primary-color)" }}
+                className="text-span"
+              >
+                See my projects!
+              </Button>
+            </Tooltip>
           </NavLink>
         </div>
         <Lottie

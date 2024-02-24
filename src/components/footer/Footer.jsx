@@ -1,4 +1,5 @@
 import "./footer.css";
+import { Link } from "react-router-dom";
 
 // Functional component for the footer
 const Footer = () => {
@@ -9,9 +10,9 @@ const Footer = () => {
   return (
     <footer>
       <div className="footer-content">
-        <a href="https://adriantutuianu.github.io/react-portfolio/">
+        <Link to={"/react-portfolio"}>
           &copy; {currentYear} Adrian Tut - Portfolio
-        </a>
+        </Link>
       </div>
     </footer>
   );

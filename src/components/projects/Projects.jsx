@@ -15,7 +15,7 @@ const Projects = () => {
         rowSpacing={5}
       >
         {projectsData.map((project) => (
-          <Grid key={project.id} item xs={9} sm={9} md={5} lg={5}>
+          <Grid key={project.id} item xs={11} sm={11} md={5} lg={5}>
             <Project project={project} />
           </Grid>
         ))}

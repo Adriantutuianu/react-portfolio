@@ -14,15 +14,15 @@ const About = () => {
           program offered by <span className="bold-text">Edx.</span> Through
           this intensive learning experience, I've gained proficiency in{" "}
           <span className="bold-text">
-            HTML, CSS, jQuery, Bootstrap, Node.js, JavaScript, and React.
+            HTML, CSS, Bootstrap, JavaScript, React, Node.js and jQuery.
           </span>
         </li>
         <li>
           With a solid understanding of <span className="bold-text">HTML</span>{" "}
           and <span className="bold-text">CSS,</span> I can effectively
           structure and style web pages.{" "}
-          <span className="bold-text">jQuery</span> has enhanced my ability to
-          manipulate the Document Object Model (DOM) and create dynamic,
+          <span className="bold-text">JavaScript</span> has enhanced my ability
+          to manipulate the Document Object Model (DOM) and create dynamic,
           interactive user experiences.{" "}
           <span className="bold-text">Bootstrap</span> provides me with a
           powerful framework for building responsive and visually appealing
@@ -31,7 +31,7 @@ const About = () => {
         <li>
           <span className="bold-text">JavaScript,</span> as the language of the
           web, empowers me to add functionality and interactivity to my
-          projects. With <span className="bold-text">React's</span>
+          projects. With <span className="bold-text">React's </span>
           component-based architecture, I can build complex user interfaces
           efficiently. Armed with these technologies, I'm well-equipped to
           tackle a wide range of front-end development projects. I'm excited
