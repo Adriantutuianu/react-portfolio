@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./project.css";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
@@ -10,8 +11,27 @@ import Zoom from "@mui/material/Zoom";
 // Functional component for each project
 const Project = ({ project }) => {
   // Render project component
+
+  const [hovered, setHovered] = useState(false);
+
+  const handleMouseEnter = () => {
+    setHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setHovered(false);
+  };
+
+  const cardStyle = {
+    backgroundColor: hovered ? "#FFFBF5" : "#F7EFE5",
+    transition: "background-color 0.3s ease",
+  };
+
   return (
     <Card
+      style={cardStyle}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
       className="card-content"
       sx={{
         height: "100%",
@@ -42,28 +62,30 @@ const Project = ({ project }) => {
         </Typography>
       </CardContent>
       <CardActions>
-        <Tooltip TransitionComponent={Zoom} title="Website">
-          <Button
-            className="project-link"
-            variant="outlined"
-            target="_blank"
-            href={project.deployedLink}
-            size="small"
-          >
-            View Project
-          </Button>
-        </Tooltip>
-        <Tooltip TransitionComponent={Zoom} title="Github Page">
-          <Button
-            className="project-github"
-            variant="outlined"
-            target="_blank"
-            href={project.githubLink}
-            size="small"
-          >
-            View Code
-          </Button>{" "}
-        </Tooltip>
+        <div className="cardButton">
+          <Tooltip TransitionComponent={Zoom} title="Website">
+            <Button
+              className="project-link"
+              variant="outlined"
+              target="_blank"
+              href={project.deployedLink}
+              size="small"
+            >
+              View Project
+            </Button>
+          </Tooltip>
+          <Tooltip TransitionComponent={Zoom} title="Github Page">
+            <Button
+              className="project-link"
+              variant="outlined"
+              target="_blank"
+              href={project.githubLink}
+              size="small"
+            >
+              View Code
+            </Button>
+          </Tooltip>
+        </div>
       </CardActions>
     </Card>
   );
