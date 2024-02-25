@@ -35,8 +35,6 @@ For a visual representation of the generated HTML's appearance and functionality
 
 ### ![Portfolio](/public/project2-screenshot4.png)
 
-### ![Portfolio](/public/project2-screenshot5.png)
-
 ## Installation
 
 N/A
