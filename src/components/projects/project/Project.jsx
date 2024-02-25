@@ -71,7 +71,7 @@ const Project = ({ project }) => {
               href={project.deployedLink}
               size="small"
             >
-              View Project
+              View Website
             </Button>
           </Tooltip>
           <Tooltip TransitionComponent={Zoom} title="Github Page">
@@ -82,7 +82,7 @@ const Project = ({ project }) => {
               href={project.githubLink}
               size="small"
             >
-              View Code
+              View Github
             </Button>
           </Tooltip>
         </div>
