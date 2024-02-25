@@ -1,6 +1,17 @@
 .card-title {
   border-bottom: 1px solid black;
 }
+
+.card-content .techno-used {
+  border-top: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.card-content .techno-used-text {
+  font-weight: bold;
+}
+
 .cardButton {
   display: flex;
 }
