@@ -58,7 +58,7 @@ const Project = ({ project }) => {
           {project.shortDescription}
         </Typography>
         <Typography variant="body1" color="text.secondary">
-          Technology used : {project.technologyUsed}
+          Technologies used: {project.technologyUsed}
         </Typography>
       </CardContent>
       <CardActions>
