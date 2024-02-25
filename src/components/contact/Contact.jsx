@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Lottie from "lottie-react";
-import lottieCard from "../../icons/Animation - contact.json";
+import lottieCard from "../../icons/Animation - contact2.json";
 import MailImage from "../../icons/email img.png";
 import LinkedInImage from "../../icons/linkedin.png";
 import GithubImage from "../../icons/github img.png";
@@ -49,11 +49,7 @@ const Contact = () => {
           <span>/adriantutuianu</span>
         </a>
       </div>
-      <Lottie
-        className="lottie-contact-letter"
-        animationData={lottieCard}
-        loop={true}
-      />
+      <Lottie className="lottie-contact-letter" animationData={lottieCard} />
     </main>
   );
 };
