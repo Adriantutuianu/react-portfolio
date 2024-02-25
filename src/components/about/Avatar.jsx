@@ -7,8 +7,8 @@ export default function ImageAvatars() {
     <Stack direction="row" spacing={2}>
       <Avatar
         alt="Adrian Tutuianu"
-        src="./logo.jpg"
-        sx={{ width: 130, height: 130 }}
+        src="./avatar-short.png"
+        sx={{ width: 160, height: 160 }}
       />
     </Stack>
   );
