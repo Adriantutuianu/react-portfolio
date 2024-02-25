@@ -14,7 +14,7 @@
     "id": 2,
     "title": "React Portfolio",
     "path": "project-two",
-    "technologiesUsed": "HTML / CSS + Bootstrap / JavaScript + React",
+    "technologiesUsed": "HTML / CSS + Bootstrap / JavaScript + React + MUI",
     "shortDescription": "Welcome to Adrian's React Portfolio! This is a dynamic and interactive web application built using React.js, designed to showcase my skills, projects, and experiences in an elegant and engaging manner.",
     "description": "",
     "deployedLink": " https://adriantutuianu.github.io/react-portfolio/.",
