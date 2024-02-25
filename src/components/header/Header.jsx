@@ -15,7 +15,7 @@ const Header = () => {
             animationData={animationHeader}
             loop={true}
           />
-          <h2 className="header-title">Portfolio </h2>
+          <h2 className="header-title">Adrian Tutuianu </h2>
           <Lottie
             className="lottie-header"
             animationData={animationHeader}
