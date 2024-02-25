@@ -57,8 +57,19 @@ const Project = ({ project }) => {
         <Typography variant="body2" color="text.secondary">
           {project.shortDescription}
         </Typography>
-        <Typography variant="body1" color="text.secondary">
-          Technologies used: {project.technologyUsed}
+        <Typography
+          variant="body1"
+          color="text.secondary"
+          className="techno-used"
+        >
+          Technologies used:
+        </Typography>
+        <Typography
+          variant="body1"
+          color="text.secondary"
+          className="techno-used-text"
+        >
+          {project.technologiesUsed}
         </Typography>
       </CardContent>
       <CardActions>
