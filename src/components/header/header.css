@@ -88,6 +88,7 @@
     width: auto;
   }
   .nav-item {
-    margin: 0 8px;
+    margin: 0 5px;
+    font-size: small;
   }
 }

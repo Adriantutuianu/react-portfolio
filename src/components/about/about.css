@@ -26,4 +26,7 @@
   .content-wrap {
     width: 90%;
   }
+  .content-wrap .avatar {
+    margin-top: 10px;
+  }
 }

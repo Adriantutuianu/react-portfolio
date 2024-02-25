@@ -60,3 +60,16 @@
   margin: 0 auto;
   padding: 10px;
 }
+
+@media (max-width: 830px) {
+  .title {
+    margin-top: 25px;
+  }
+  .contact .contact-wrap {
+    flex-direction: column;
+    border-top: none;
+  }
+  .contact .contact-wrap .item {
+    padding: 5px;
+  }
+}
