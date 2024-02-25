@@ -16,6 +16,10 @@
   align-items: center;
 }
 
+.content .header-title {
+  font-size: 26px;
+}
+
 .portfolio-header {
   display: flex;
   justify-content: center;
