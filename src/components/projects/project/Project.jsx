@@ -74,17 +74,19 @@ const Project = ({ project }) => {
       </CardContent>
       <CardActions>
         <div className="cardButton">
-          <Tooltip TransitionComponent={Zoom} title="Website">
-            <Button
-              className="project-link"
-              variant="outlined"
-              target="_blank"
-              href={project.deployedLink}
-              size="small"
-            >
-              View Website
-            </Button>
-          </Tooltip>
+          {project.deployedLink.length > 0 && (
+            <Tooltip TransitionComponent={Zoom} title="Website">
+              <Button
+                className="project-link"
+                variant="outlined"
+                target="_blank"
+                href={project.deployedLink}
+                size="small"
+              >
+                View Website
+              </Button>
+            </Tooltip>
+          )}
           <Tooltip TransitionComponent={Zoom} title="Github Page">
             <Button
               className="project-link"
