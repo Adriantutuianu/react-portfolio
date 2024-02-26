@@ -13,7 +13,7 @@ Welcome to Adrian's React Portfolio! This is a dynamic and interactive web appli
 
 Here is the GitHub repository: https://github.com/Adriantutuianu/react-portfolio
 
-Here is the link to the deployed page: https://adriantutuianu.github.io/react-portfolio/
+Here is the link to the deployed page: https://www.adriantut.dev
 
 ## Technologies Used
 
