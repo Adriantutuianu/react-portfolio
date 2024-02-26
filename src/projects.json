@@ -5,7 +5,6 @@
     "path": "project-one",
     "technologiesUsed": "HTML / CSS + Bootstrap / JavaScript / APIs / Github Branches",
     "shortDescription": "Our primary motivation was to provide an intuitive, visually clear and useful tool for students learning how to code. We perfected a Website using YouTube and Wikipedia APIs, to supply users with sufficient information to their queries.",
-    "description": "",
     "deployedLink": "https://ben-rumbold.github.io/web-development-study-tool/",
     "githubLink": "https://github.com/Ben-Rumbold/web-development-study-tool",
     "screenshot": "./project1-screenshot.jpg"
@@ -16,10 +15,19 @@
     "path": "project-two",
     "technologiesUsed": "HTML / CSS + Bootstrap / JavaScript + React + MUI",
     "shortDescription": "Welcome to Adrian's React Portfolio! This is a dynamic and interactive web application built using React.js, designed to showcase my skills, projects, and experiences in an elegant and engaging manner.",
-    "description": "",
-    "deployedLink": " https://adriantutuianu.github.io/react-portfolio/.",
+    "deployedLink": "",
     "githubLink": "https://github.com/Adriantutuianu/react-portfolio",
     "screenshot": "./project2-screenshot.png"
+  },
+  {
+    "id": 7,
+    "title": "Product Management App",
+    "path": "project-seven",
+    "technologiesUsed": "HTML / CSS + AntD / JavaScript + React / Fetch API",
+    "shortDescription": "Single page application built in React, that will include CRUD operations and will have the following functionalities: Routing, Authentication, Pagination, Filters & sorting.",
+    "deployedLink": "https://products.adriantut.dev/",
+    "githubLink": "https://github.com/Adriantutuianu/product-management-app",
+    "screenshot": "./project7-screenshot.png"
   },
   {
     "id": 3,
@@ -27,8 +35,7 @@
     "path": "project-three",
     "technologiesUsed": "HTML / CSS + Bootstrap / JavaScript / Node.js / Jest / Inquirer",
     "shortDescription": "This command-line application generates HTML files based on input provided via a user interface. It is designed to help managers quickly generate a webpage displaying basic information about their team members, including their names, IDs, email addresses, and additional details such as GitHub usernames or schools for engineers and interns respectively.",
-    "description": "",
-    "deployedLink": "N/A",
+    "deployedLink": "",
     "githubLink": "https://github.com/Adriantutuianu/team-profile-generator-app-challenge",
     "screenshot": "./project3-screenshot.png"
   },
@@ -38,7 +45,6 @@
     "path": "project-four",
     "technologiesUsed": "HTML / CSS + Bootstrap / JavaScript + DayJS / jQuery / APIs",
     "shortDescription": "Weather Dashboard App, your go-to destination for real-time weather information and a 5-day forecast for any city worldwide! This Weather Dashboard App provides a reliable and visually appealing platform for all your weather-related needs.",
-    "description": "",
     "deployedLink": "https://adriantutuianu.github.io/weather-dashboard-app-challenge/",
     "githubLink": "https://github.com/Adriantutuianu/weather-dashboard-app-challenge",
     "screenshot": "./project4-screenshot.png"
@@ -49,7 +55,6 @@
     "path": "project-five",
     "technologiesUsed": "HTML / CSS + Bootstrap / JavaScript + DayJS / jQuery",
     "shortDescription": "Organize your days effortlessly with this responsive and interactive planner, offering a seamless blend of user-friendly design and advanced functionality for a productive daily experience.",
-    "description": "",
     "deployedLink": "https://adriantutuianu.github.io/daily-planner-app-calendar-third-party-apis/",
     "githubLink": "https://github.com/Adriantutuianu/daily-planner-app-calendar-third-party-apis",
     "screenshot": "./project5-screenshot.png"
@@ -59,8 +64,7 @@
     "title": "Random Password Generator",
     "path": "project-six",
     "technologiesUsed": "HTML / CSS + Bootstrap / JavaScript",
-    "shortDescription": "his project showcases a modern and responsive design, with interactive features powered by custom JavaScript functions. Explore the seamless blend of front-end technologies to create an engaging user experience.",
-    "description": "",
+    "shortDescription": "This project showcases a modern and responsive design, with interactive features powered by custom JavaScript functions. Explore the seamless blend of front-end technologies to create an engaging user experience.",
     "deployedLink": "https://adriantutuianu.github.io/magic-random-password-generator-app/",
     "githubLink": "https://github.com/Adriantutuianu/magic-random-password-generator-app",
     "screenshot": "./project6-screenshot.png"
