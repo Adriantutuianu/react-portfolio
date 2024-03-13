@@ -20,6 +20,16 @@
     "screenshot": "./project2-screenshot.png"
   },
   {
+    "id": 8,
+    "title": "Event Bright",
+    "path": "project-eight",
+    "technologiesUsed": "HTML / CSS + Bootstrap / JavaScript + React + MUI / API",
+    "shortDescription": "Event-Bright is a web application built with HTML, CSS, JavaScript, React, and Bootstrap. It fetches data from the Ticketmaster API and Weather API, and displays it in a user-friendly format. The application is responsive and works well on all devices.",
+    "deployedLink": "https://eventbright.netlify.app/",
+    "githubLink": "https://github.com/Ginjak/Event-Bright",
+    "screenshot": "./project8-screenshot.png"
+  },
+  {
     "id": 7,
     "title": "Product Management App",
     "path": "project-seven",
