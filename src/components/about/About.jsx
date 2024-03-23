@@ -21,9 +21,27 @@ const About = () => {
           </span>
         </li>
         <li>
-          On <span className="bold-text">Github</span> you can see the day by
-          day progress and on <span className="bold-text">LinkedIn</span> all
-          certificates that I gained since I started to learn coding.
+          On{" "}
+          <a
+            className="bold-text"
+            href="https://github.com/Adriantutuianu"
+            title="Github"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Github
+          </a>{" "}
+          you can see the day by day progress and on{" "}
+          <a
+            className="bold-text"
+            href="https://www.linkedin.com/in/adrian-tutuianu"
+            title="LinkedIn"
+            target="_blank"
+            rel="noreferrer"
+          >
+            LinkedIn{" "}
+          </a>{" "}
+          all certificates that I gained since I started to learn coding.
         </li>
       </ul>
     </div>
