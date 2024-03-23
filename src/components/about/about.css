@@ -20,6 +20,7 @@
 .content-wrap ul li .bold-text {
   font-weight: bold;
   color: var(--primary-color);
+  text-decoration: none;
 }
 
 @media (max-width: 830px) {
