@@ -78,5 +78,15 @@
     "deployedLink": "https://adriantutuianu.github.io/magic-random-password-generator-app/",
     "githubLink": "https://github.com/Adriantutuianu/magic-random-password-generator-app",
     "screenshot": "./project6-screenshot.png"
+  },
+  {
+    "id": 9,
+    "title": "World Statistics",
+    "path": "project-nine",
+    "technologiesUsed": "HTML / CSS + Tailwind / TypeScript / React",
+    "shortDescription": "Welcome to the World Statistics Hub, your comprehensive source for global data.Our interactive platform provides up-to-date insights and visualizations, allowing you to compare countries and regions.",
+    "deployedLink": "https://statistics-api.netlify.app/",
+    "githubLink": "https://github.com/Adriantutuianu/statistics-api",
+    "screenshot": "./project9-screenshot.jpg"
   }
 ]
