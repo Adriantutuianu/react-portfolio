@@ -1,8 +1,18 @@
 [
   {
     "id": 1,
-    "title": "Web-Development Study Tool - Group Project",
+    "title": "World Statistics",
     "path": "project-one",
+    "technologiesUsed": "HTML / Tailwind CSS / TypeScript / React",
+    "shortDescription": "Welcome to the World Statistics Hub, your comprehensive source for global data.Our interactive platform provides up-to-date insights and visualizations, allowing you to compare countries and regions.",
+    "deployedLink": "https://statistics-api.netlify.app/",
+    "githubLink": "https://github.com/Adriantutuianu/statistics-api",
+    "screenshot": "./project9-screenshot2.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Web-Development Study Tool - Group Project",
+    "path": "project-two",
     "technologiesUsed": "HTML / CSS + Bootstrap / JavaScript / APIs / Github Branches",
     "shortDescription": "Our primary motivation was to provide an intuitive, visually clear and useful tool for students learning how to code. We perfected a Website using YouTube and Wikipedia APIs, to supply users with sufficient information to their queries.",
     "deployedLink": "https://ben-rumbold.github.io/web-development-study-tool/",
@@ -10,9 +20,9 @@
     "screenshot": "./project1-screenshot.jpg"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "React Portfolio",
-    "path": "project-two",
+    "path": "project-three",
     "technologiesUsed": "HTML / CSS + Bootstrap / JavaScript + React + MUI",
     "shortDescription": "Welcome to Adrian's React Portfolio! This is a dynamic and interactive web application built using React.js, designed to showcase my skills, projects, and experiences in an elegant and engaging manner.",
     "deployedLink": "",
@@ -20,9 +30,9 @@
     "screenshot": "./project2-screenshot.png"
   },
   {
-    "id": 8,
+    "id": 4,
     "title": "Event Bright",
-    "path": "project-eight",
+    "path": "project-four",
     "technologiesUsed": "HTML / CSS + Bootstrap / JavaScript + React + MUI / API / Github Branches",
     "shortDescription": "Event-Bright is a web application built with HTML, CSS, JavaScript, React, and Bootstrap. It fetches data from the Ticketmaster API and Weather API, and displays it in a user-friendly format. The application is responsive and works well on all devices.",
     "deployedLink": "https://eventbright.netlify.app/",
@@ -30,9 +40,9 @@
     "screenshot": "./project8-screenshot.png"
   },
   {
-    "id": 7,
+    "id": 5,
     "title": "Product Management App",
-    "path": "project-seven",
+    "path": "project-five",
     "technologiesUsed": "HTML / CSS + AntD / JavaScript + React / Fetch API",
     "shortDescription": "Single page application built in React, that will include CRUD operations and will have the following functionalities: Routing, Authentication, Pagination, Filters & sorting.",
     "deployedLink": "https://products.adriantut.dev/",
@@ -40,9 +50,9 @@
     "screenshot": "./project7-screenshot.png"
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "Team Profile Generator App",
-    "path": "project-three",
+    "path": "project-six",
     "technologiesUsed": "HTML / CSS + Bootstrap / JavaScript / Node.js / Jest / Inquirer",
     "shortDescription": "This command-line application generates HTML files based on input provided via a user interface. It is designed to help managers quickly generate a webpage displaying basic information about their team members, including their names, IDs, email addresses, and additional details such as GitHub usernames or schools for engineers and interns respectively.",
     "deployedLink": "",
@@ -50,9 +60,9 @@
     "screenshot": "./project3-screenshot.png"
   },
   {
-    "id": 4,
+    "id": 7,
     "title": "Weather-Dashboard-App",
-    "path": "project-four",
+    "path": "project-seven",
     "technologiesUsed": "HTML / CSS + Bootstrap / JavaScript + DayJS / jQuery / APIs",
     "shortDescription": "Weather Dashboard App, your go-to destination for real-time weather information and a 5-day forecast for any city worldwide! This Weather Dashboard App provides a reliable and visually appealing platform for all your weather-related needs.",
     "deployedLink": "https://adriantutuianu.github.io/weather-dashboard-app-challenge/",
@@ -60,9 +70,9 @@
     "screenshot": "./project4-screenshot.png"
   },
   {
-    "id": 5,
+    "id": 8,
     "title": "Daily Planner App",
-    "path": "project-five",
+    "path": "project-eight",
     "technologiesUsed": "HTML / CSS + Bootstrap / JavaScript + DayJS / jQuery",
     "shortDescription": "Organize your days effortlessly with this responsive and interactive planner, offering a seamless blend of user-friendly design and advanced functionality for a productive daily experience.",
     "deployedLink": "https://adriantutuianu.github.io/daily-planner-app-calendar-third-party-apis/",
@@ -70,23 +80,13 @@
     "screenshot": "./project5-screenshot.png"
   },
   {
-    "id": 6,
+    "id": 9,
     "title": "Random Password Generator",
-    "path": "project-six",
+    "path": "project-nine",
     "technologiesUsed": "HTML / CSS + Bootstrap / JavaScript",
     "shortDescription": "This project showcases a modern and responsive design, with interactive features powered by custom JavaScript functions. Explore the seamless blend of front-end technologies to create an engaging user experience.",
     "deployedLink": "https://adriantutuianu.github.io/magic-random-password-generator-app/",
     "githubLink": "https://github.com/Adriantutuianu/magic-random-password-generator-app",
     "screenshot": "./project6-screenshot.png"
-  },
-  {
-    "id": 9,
-    "title": "World Statistics",
-    "path": "project-nine",
-    "technologiesUsed": "HTML / CSS + Tailwind / TypeScript / React",
-    "shortDescription": "Welcome to the World Statistics Hub, your comprehensive source for global data.Our interactive platform provides up-to-date insights and visualizations, allowing you to compare countries and regions.",
-    "deployedLink": "https://statistics-api.netlify.app/",
-    "githubLink": "https://github.com/Adriantutuianu/statistics-api",
-    "screenshot": "./project9-screenshot.jpg"
   }
 ]
