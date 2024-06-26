@@ -3,7 +3,7 @@
     "id": 1,
     "title": "World Statistics Hub",
     "path": "project-one",
-    "technologiesUsed": "HTML / Tailwind CSS / TypeScript / React",
+    "technologiesUsed": "HTML / Tailwind CSS / TypeScript / React / APIs",
     "shortDescription": "Welcome to the World Statistics Hub, your comprehensive source for global data.Our interactive platform provides up-to-date insights and visualizations, allowing you to compare countries and regions.",
     "deployedLink": "https://statistics-api.netlify.app/",
     "githubLink": "https://github.com/Adriantutuianu/statistics-api",
