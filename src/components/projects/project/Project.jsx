@@ -62,7 +62,7 @@ const Project = ({ project }) => {
           color="text.secondary"
           className="techno-used"
         >
-          Technologies used:
+          Used technologies:
         </Typography>
         <Typography
           variant="body1"
