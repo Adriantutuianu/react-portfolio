@@ -16,8 +16,13 @@
   align-items: center;
 }
 
-.content .header-title {
-  font-size: 26px;
+.content .custom-link {
+  text-decoration: none;
+  color: black;
+}
+
+.content .custom-link .header-title {
+  color: inherit; /* Inherits the color from the parent (custom-link) */
 }
 
 .portfolio-header {
