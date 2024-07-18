@@ -10,16 +10,6 @@
     "screenshot": "./project9-screenshot2.jpg"
   },
   {
-    "id": 2,
-    "title": "Web-Development Study Tool - Group Project",
-    "path": "project-two",
-    "technologiesUsed": "HTML / CSS + Bootstrap / JavaScript / APIs / Github Branches",
-    "shortDescription": "Our primary motivation was to provide an intuitive, visually clear and useful tool for students learning how to code. We perfected a Website using YouTube and Wikipedia APIs, to supply users with sufficient information to their queries.",
-    "deployedLink": "https://ben-rumbold.github.io/web-development-study-tool/",
-    "githubLink": "https://github.com/Ben-Rumbold/web-development-study-tool",
-    "screenshot": "./project1-screenshot.jpg"
-  },
-  {
     "id": 3,
     "title": "React Portfolio",
     "path": "project-three",
