@@ -23,7 +23,7 @@ const Project = ({ project }) => {
   };
 
   const cardStyle = {
-    backgroundColor: hovered ? "#F6E6CB" : "#EEEDEB",
+    backgroundColor: hovered ? "#B6C7AA" : "#E7F0DC",
     transition: "background-color 0.3s ease",
   };
 
