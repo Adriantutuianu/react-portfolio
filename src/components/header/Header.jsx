@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 import "./header.css";
 import Lottie from "lottie-react";
 import animationHeader from "../../icons/Lottie Lego.json";
+import { Link } from "react-router-dom";
 
 // Functional component for the header
 const Header = () => {
@@ -15,12 +16,9 @@ const Header = () => {
             animationData={animationHeader}
             loop={true}
           />
-          <h2 className="header-title">Adrian Tutuianu </h2>
-          <Lottie
-            className="lottie-header"
-            animationData={animationHeader}
-            loop={true}
-          />
+          <Link to={"/react-portfolio"} className="custom-link">
+            <h2 className="header-title">Adrian Tutuianu </h2>
+          </Link>
         </div>
         <ul className="nav nav-tabs">
           <li className="nav-item">
