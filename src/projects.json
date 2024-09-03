@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< HEAD
     "id": 2,
     "title": "DizzitUp",
     "path": "project-two",
@@ -10,6 +11,8 @@
     "screenshot": "./dizzitup.png"
   },
   {
+=======
+>>>>>>> d26d2e92c7ccad38b010d7840ca7141a5d575426
     "id": 1,
     "title": "World Statistics Hub",
     "path": "project-one",

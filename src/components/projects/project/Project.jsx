@@ -41,12 +41,16 @@ const Project = ({ project }) => {
       }}
     >
       <CardMedia
+<<<<<<< HEAD
         sx={{
           height: 350,
           border: "1px solid black",
           objectFit: "contain", // Ensures the entire image fits inside the container
           objectPosition: "center", // Centers the image within the container
         }}
+=======
+        sx={{ height: 200, border: "1px solid black" }}
+>>>>>>> d26d2e92c7ccad38b010d7840ca7141a5d575426
         image={project.screenshot}
         title={project.title}
       />
