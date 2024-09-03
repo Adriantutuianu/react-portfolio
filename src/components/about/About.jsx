@@ -20,7 +20,6 @@ const About = () => {
           </span>
         </li>
         <li>
-<<<<<<< HEAD
           Right now I am working on a real start-up project called{" "}
           <span className="bold-text">DizzitUp</span> and it is build using{" "}
           <span className="bold-text">React</span> and{" "}
@@ -28,14 +27,6 @@ const About = () => {
           using <span className="bold-text">Tailwind CSS</span>.
         </li>
 
-=======
-          The most recent project that I finished is named{" "}
-          <span className="bold-text">World Statistics</span> and it was build
-          using <span className="bold-text">React</span> and{" "}
-          <span className="bold-text">TypeScript</span>. The project was styled
-          using <span className="bold-text">Tailwind CSS</span>.
-        </li>
->>>>>>> d26d2e92c7ccad38b010d7840ca7141a5d575426
         <li>
           On{" "}
           <a
