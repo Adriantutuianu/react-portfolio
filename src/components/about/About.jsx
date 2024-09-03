@@ -20,12 +20,13 @@ const About = () => {
           </span>
         </li>
         <li>
-          The most recent project that I finished is named{" "}
-          <span className="bold-text">World Statistics</span> and it was build
-          using <span className="bold-text">React</span> and{" "}
-          <span className="bold-text">TypeScript</span>. The project was styled
+          Right now I am working on a real start-up project called{" "}
+          <span className="bold-text">DizzitUp</span> and it is build using{" "}
+          <span className="bold-text">React</span> and{" "}
+          <span className="bold-text">Next.js</span>. The project was styled
           using <span className="bold-text">Tailwind CSS</span>.
         </li>
+
         <li>
           On{" "}
           <a
