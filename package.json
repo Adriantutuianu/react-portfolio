@@ -16,10 +16,7 @@
     "@mui/material": "^5.15.10",
     "bootstrap": "^5.3.2",
     "framer-motion": "^11.0.5",
-<<<<<<< HEAD
     "git-filter-repo": "^0.0.30",
-=======
->>>>>>> d26d2e92c7ccad38b010d7840ca7141a5d575426
     "lottie-react": "^2.4.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.1",
